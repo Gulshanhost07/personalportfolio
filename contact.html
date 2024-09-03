@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gulshan-Portfolio</title>
+    <link type="text/css" rel="stylesheet" href="styles.css">
+    <link type="text/css" rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <header class="header">
+        <a class="logo" href="">Portfolio</a>
+
+        <div class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <nav class="navbar" id="navbar">
+            <a href="index.html">HOME</a>
+            <a href="about.html">ABOUT</a>
+            <a href="projects.html">PROJECTS</a>
+            <a href="blogs.html">BLOGS</a>
+            <a href="contact.html">CONTACT</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="form-box"> 
+            <div class="box">
+            <h2>Get in touch</h2>
+            <form action="https://api.web3forms.com/submit" method="POST" class="form">
+            <input type="hidden" name="access_key" value="1e44ade2-6a66-4ef3-8b3b-846cb4a273f7">
+                <h3>Name:</h3>
+                <input name="name" class="name" type="text" placeholder="Enter your name..." required><br/>
+                <h3>Email:</h3>
+                <input name="email" class="email" type="email" placeholder="Your Email Address.." required><br/>
+                <h3>Message:</h3>
+                <textarea name="message" class="message" type="text" placeholder="Type your message here..." required></textarea><br/>
+                <input type="hidden" name="redirect" value="https://google.com">
+                <button type="submit" class="submit">Submit</button>
+            </form>
+            </div>
+        </div>
+    </main>
+
+    <div></div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,60 @@
+.form-box {
+    padding-top: 75px;
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    background: rgba(0, 128, 0, 0.2);
+    width: 445px;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 2.1px;
+}
+
+h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+input, textarea {
+    width: 100%; 
+    font-size: 14px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+}
+
+input {
+    height: 30px;
+}
+
+textarea {
+    height: 200px;
+    resize: none;
+}
+
+.submit {
+    background-color: #212121;
+    height: 33px;
+    width: 100px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    font-weight: 600;
+    align-self: center; 
+}
+
+.submit:hover {
+    color: #db1010;
+}
+
+@media (max-width: 650px) {}
